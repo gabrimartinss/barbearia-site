@@ -1,0 +1,30 @@
+
+<div class="navbar-fixed" style="position: absolute;">
+  <nav>
+    <div class="nav-wrapper container flex flex-center">
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li class="flow-text uppercase" data-menuanchor="who_are_we"><a href="#who_are_we"><%= t('who_are_we') %></a></li>
+        <li class="flow-text uppercase" data-menuanchor="method"><a href="#method"><%= t('method') %></a></li>
+        <li class="flow-text uppercase" data-menuanchor="objective"><a href="#objective"><%= t('objective') %></a></li>
+        <li class="flow-text uppercase" data-menuanchor="concat"><a href="#concat"><%= t('concat') %></a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<div id="fullpage">
+  <div id="who-are-we-bg" class="section" data-anchor="who_are_we"><%= render 'who_are_we' %></div>
+  <div id="method-bg" class="section" data-anchor="method"></div>
+  <div class="section" data-anchor="objective">Objective</div>
+  <div class="section" data-anchor="concat">Concat</div>
+</div>
+
+<script type="text/javascript">
+  $('#fullpage').fullpage({
+    anchors: ['who_are_we', 'method', 'objective', 'concat'],
+    menu: '#nav-mobile',
+    fitToSection: false,
+		css3: true,
+    setResponsive: true,
+  });
+</script>

@@ -1,0 +1,52 @@
+/*body {
+    background: #010207
+}*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/* FLEX-BOX */
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-space-evenly {
+    justify-content: space-evenly;
+}
+
+
+/* WHO ARE WE */
+
+#who-are-we-bg {
+    background: url(../assets/who_are_me/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.logo>img {
+    text-align: center;
+}
+
+
+/* METHOD */
+
+#method-bg {
+    background: url(../assets/method/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
