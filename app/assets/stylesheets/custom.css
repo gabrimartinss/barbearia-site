@@ -1,6 +1,26 @@
-/*body {
-    background: #010207
-}*/
+body {
+    background: #03060de8;
+    font-family: 'Montserrat';
+}
+
+.text>p {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: transparent;
+    /* Torna o texto transparente para exibir o gradiente de fundo */
+    background-clip: text;
+    /* Define a área de preenchimento do gradiente para o texto */
+    background-image: linear-gradient(to right, #dfeaf0, #7f9fb1);
+    /* Define o gradiente de fundo */
+    -webkit-background-clip: text;
+    /* Suporte para navegadores WebKit (Safari, Chrome) */
+    text-stroke: 2px #7f9fb13d;
+    /* Define o traçado exterior */
+    -webkit-text-stroke: 2px #7f9fb13d;
+    /* Suporte para navegadores WebKit (Safari, Chrome) */
+}
 
 .uppercase {
     text-transform: uppercase;
@@ -31,13 +51,11 @@
     background-position: center;
 }
 
-.logo {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+.arrow {
+    padding: 30px 0px 20px 0px
 }
 
-.logo>img {
+.arrow>img {
     text-align: center;
 }
 
