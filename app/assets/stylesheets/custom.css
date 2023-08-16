@@ -97,3 +97,57 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/* TRAINING */
+
+#training-bg {
+    background: url(../assets/method/background01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* SOLUTIONS */
+
+#solutions-bg {
+    background: url(../assets/method/background02.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* IN_PRACTICE */
+
+#in-practice-bg {
+    background: url(../assets/method/background03.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ACTING */
+
+#acting-bg {
+    background: url(../assets/method/background04.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* FEEDBACKS */
+
+#feedbacks-bg {
+    background: url(../assets/method/background05.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* VALUES_OF_SERVICE */
+
+#values-of-service-bg {
+    background: url(../assets/method/background06.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
