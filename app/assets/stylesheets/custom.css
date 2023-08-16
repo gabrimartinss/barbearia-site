@@ -3,7 +3,7 @@ body {
     font-family: 'Montserrat';
 }
 
-.text>p {
+.text-color {
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
@@ -22,8 +22,37 @@ body {
     /* Suporte para navegadores WebKit (Safari, Chrome) */
 }
 
+.text-title {
+    font-size: 4rem;
+}
+
+.text-sub-title {
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 200;
+    text-align: center;
+    text-transform: uppercase;
+    color: #7f9fb1;
+    letter-spacing: 8px;
+}
+
+.text-content {
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: justify;
+    color: #ffffff;
+}
+
 .uppercase {
     text-transform: uppercase;
+}
+
+.btn-a {
+    border-radius: 20px 0px 20px 0px;
+    width: 170px;
+    height: 55px;
+    background-color: #2d4451;
+    color: #ffffff;
 }
 
 
