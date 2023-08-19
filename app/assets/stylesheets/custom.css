@@ -15,15 +15,11 @@ body {
     background-image: linear-gradient(to right, #dfeaf0, #7f9fb1);
     /* Define o gradiente de fundo */
     -webkit-background-clip: text;
-    /* Suporte para navegadores WebKit (Safari, Chrome) */
-    text-stroke: 2px #7f9fb13d;
-    /* Define o traçado exterior */
-    -webkit-text-stroke: 2px #7f9fb13d;
-    /* Suporte para navegadores WebKit (Safari, Chrome) */
 }
 
 .text-title {
     font-size: 4rem;
+    text-shadow: 0px 0px 200px rgba(255, 255, 255, 0.7);
 }
 
 .text-sub-title {
@@ -47,12 +43,25 @@ body {
     text-transform: uppercase;
 }
 
-.btn-a {
+.btn-style {
     border-radius: 20px 0px 20px 0px;
-    width: 170px;
-    height: 55px;
-    background-color: #2d4451;
+    width: 190px;
+    height: 40px;
     color: #ffffff;
+}
+
+.btn-style:hover {
+    cursor: pointer;
+}
+
+.btn-a {
+    background-color: #2d4451;
+    border: 1px solid #7f9fb1;
+}
+
+.btn-b {
+    background: linear-gradient(to right, #f1a768 0.1%, #dd5f5e 20%, #dd5f5e 50%, #f1a768, #f1a768, #dd5f5e);
+    border: 1px solid #f1a768;
 }
 
 
@@ -68,6 +77,10 @@ body {
 
 .flex-space-evenly {
     justify-content: space-evenly;
+}
+
+.flex-align-items-center {
+    align-items: center;
 }
 
 
@@ -98,6 +111,7 @@ body {
     background-position: center;
 }
 
+
 /* TRAINING */
 
 #training-bg {
@@ -106,6 +120,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 
 /* SOLUTIONS */
 
@@ -116,6 +131,7 @@ body {
     background-position: center;
 }
 
+
 /* IN_PRACTICE */
 
 #in-practice-bg {
@@ -124,6 +140,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 
 /* ACTING */
 
@@ -134,6 +151,7 @@ body {
     background-position: center;
 }
 
+
 /* FEEDBACKS */
 
 #feedbacks-bg {
@@ -142,6 +160,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 
 /* VALUES_OF_SERVICE */
 
