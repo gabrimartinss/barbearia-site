@@ -115,7 +115,7 @@ body {
 /* TRAINING */
 
 #training-bg {
-    background: url(../assets/method/background01.png);
+    background: url(../assets/training/background01.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -125,7 +125,7 @@ body {
 /* SOLUTIONS */
 
 #solutions-bg {
-    background: url(../assets/method/background02.png);
+    background: url(../assets/solutions/background02.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -135,7 +135,7 @@ body {
 /* IN_PRACTICE */
 
 #in-practice-bg {
-    background: url(../assets/method/background03.png);
+    background: url(../assets/in_practice/background03.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -145,7 +145,7 @@ body {
 /* ACTING */
 
 #acting-bg {
-    background: url(../assets/method/background04.png);
+    background: url(../assets/acting/background04.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -155,7 +155,7 @@ body {
 /* FEEDBACKS */
 
 #feedbacks-bg {
-    background: url(../assets/method/background05.png);
+    background: url(../assets/feedbacks/background05.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -165,7 +165,7 @@ body {
 /* VALUES_OF_SERVICE */
 
 #values-of-service-bg {
-    background: url(../assets/method/background06.png);
+    background: url(../assets/values_of_service/background06.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -175,7 +175,7 @@ body {
 /* CONTACT */
 
 #contact-bg {
-    background: url(../assets/method/background_black.png);
+    background: url(../assets/contact/background_black.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
