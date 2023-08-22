@@ -134,6 +134,14 @@ body {
 
 /* IN_PRACTICE */
 
+#in-practice-square-bg {
+    background: url(../assets/in_practice/in_practice_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 #in-practice-bg {
     background: url(../assets/in_practice/background03.png);
     background-size: cover;
