@@ -170,3 +170,13 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+/* CONTACT */
+
+#contact-bg {
+    background: url(../assets/method/background_black.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
