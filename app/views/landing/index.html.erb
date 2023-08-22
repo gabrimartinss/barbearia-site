@@ -11,7 +11,7 @@
         <li class="flow-text uppercase" data-menuanchor="acting"><a href="#acting"><%= t('acting') %></a></li>
         <li class="flow-text uppercase" data-menuanchor="feedbacks"><a href="#feedbacks"><%= t('feedbacks') %></a></li>
         <li class="flow-text uppercase" data-menuanchor="values_of_service"><a href="#values_of_service"><%= t('values_of_service') %></a></li>
-        <li class="flow-text uppercase" data-menuanchor="concat"><a href="#concat"><%= t('contact') %></a></li>
+        <li class="flow-text uppercase" data-menuanchor="contact"><a href="#contact"><%= t('contact') %></a></li>
       </ul>
     </div>
   </nav>
@@ -26,12 +26,12 @@
   <div id="acting-bg" class="section" data-anchor="acting"><%= render 'acting' %></div>
   <div id="feedbacks-bg" class="section" data-anchor="feedbacks"><%= render 'feedbacks' %></div>
   <div id="values-of-service-bg" class="section" data-anchor="values_of_service"><%= render 'values_of_service' %></div>
-  <div class="section" data-anchor="concat">Concat</div>
+  <div id="contact-bg" class="section" data-anchor="contact"><%= render 'contact' %></div>
 </div>
 
 <script type="text/javascript">
   $('#fullpage').fullpage({
-    anchors: ['who_are_we', 'method', 'training', 'solutions', 'in_practice', 'acting', 'feedbacks', 'values_of_service', 'concat'],
+    anchors: ['who_are_we', 'method', 'training', 'solutions', 'in_practice', 'acting', 'feedbacks', 'values_of_service', 'contact'],
     menu: '#nav-mobile',
     fitToSection: false,
 		css3: true,
