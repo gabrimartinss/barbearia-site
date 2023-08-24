@@ -134,11 +134,30 @@ body {
 
 /* IN_PRACTICE */
 
-#in-practice-square-bg {
-    background: url(../assets/in_practice/in_practice_background.png);
+#in-practice-square-01-bg {
+    background: url(../assets/in_practice/in_practice_background_01.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 120px;
+}
+
+
+#in-practice-square-02-bg {
+    background: url(../assets/in_practice/in_practice_background_02.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+}
+
+
+#in-practice-square-03-bg {
+    background: url(../assets/in_practice/in_practice_background_03.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
 }
 
 
@@ -171,6 +190,30 @@ body {
 
 
 /* VALUES_OF_SERVICE */
+
+#values-of-service-square-01-bg {
+    background: url(../assets/values_of_service/values_of_service_01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#values-of-service-square-02-bg {
+    background: url(../assets/values_of_service/values_of_service_02.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#values-of-service-square-03-bg {
+    background: url(../assets/values_of_service/values_of_service_03.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 #values-of-service-bg {
     background: url(../assets/values_of_service/background06.png);
