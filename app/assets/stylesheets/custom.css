@@ -136,29 +136,48 @@ body {
 
 #in-practice-square-01-bg {
     background: url(../assets/in_practice/in_practice_background_01.png);
-    background-size: cover;
+    background-size: 100%;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 120px;
+    margin: 10px;
+    float: inline-end;
 }
+
+
 
 
 #in-practice-square-02-bg {
     background: url(../assets/in_practice/in_practice_background_02.png);
-    background-size: cover;
+    background-size: 100%;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 120px;
+    margin: 10px;
+    float: inline-end;
 }
+
 
 
 #in-practice-square-03-bg {
     background: url(../assets/in_practice/in_practice_background_03.png);
-    background-size: cover;
+    background-size: 100%;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 120px;
+    margin: 10px;
+    float: inline-end;
 }
+
 
 
 #in-practice-bg {
