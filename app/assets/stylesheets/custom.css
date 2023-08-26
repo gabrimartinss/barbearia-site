@@ -3,6 +3,21 @@ body {
     font-family: 'Montserrat';
 }
 
+.line {
+    position: relative;
+    display: flex;
+}
+
+.line::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, #dfeaf0, transparent);
+}
+
 .text-color {
     font-size: 2.5rem;
     font-weight: 700;
@@ -34,7 +49,7 @@ body {
 
 .text-content {
     font-size: 1rem;
-    font-weight: 200;
+    font-weight: 400;
     text-align: justify;
     color: #ffffff;
 }
