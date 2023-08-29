@@ -227,26 +227,42 @@ body {
 
 #values-of-service-square-01-bg {
     background: url(../assets/values_of_service/values_of_service_01.png);
-    background-size: cover;
+    background-size: 100%;
+    width: 450px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
     background-repeat: no-repeat;
-    background-position: center;
+    margin: 10px;
 }
+
 
 
 #values-of-service-square-02-bg {
     background: url(../assets/values_of_service/values_of_service_02.png);
-    background-size: cover;
+    background-size: 100%;
+    width: 450px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
     background-repeat: no-repeat;
-    background-position: center;
+    margin: 10px;
 }
+
 
 
 #values-of-service-square-03-bg {
     background: url(../assets/values_of_service/values_of_service_03.png);
-    background-size: cover;
+    background-size: 100%;
+    width: 450px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
     background-repeat: no-repeat;
-    background-position: center;
+    margin: 10px;
 }
+
+
 
 
 #values-of-service-bg {
