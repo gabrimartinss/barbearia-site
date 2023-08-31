@@ -1,16 +1,229 @@
+<div class="col s12">
+    <div id="map"></div>
+</div>
 <div class="container">
     <div class="row">
         <div class="flex flex-center">
             <h2 class="text-color text-title">Atuação Global</h2>
             <span class="text-sub-title">Países onde atuamos</span>
         </div>
-        <div class="col s12 m4 l3" style="padding: 15px; text-align: center;">  
-            <a href="#"><button class="btn-style btn-b">Contato</button></a>
+        <div class="flex flex-center" style="padding-top: 2.5rem;">
+            <div class="col s12" style="padding: 15px; text-align: center;">  
+                <a href="#"><button class="btn-style btn-b">Entre em contato</button></a>
+            </div>
         </div>
         <div class="col s12">
             <div class="arrow flex flex-center">
-                <a href="#feedbacks" ><img src="<%= image_url 'arrow.png' %>"></a>
+                <a href="#solutions" ><img src="<%= image_url 'arrow.png' %>"></a>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+(async () => {
+    const topology = await fetch(
+        'https://code.highcharts.com/mapdata/custom/world-highres.topo.json'
+    ).then(response => response.json());
+
+    const data = [
+        {
+            'hc-key': 'ar',
+            color: '#afccdc',
+            info: 'Pesquisa de mercado e benchmark hoteleiro e de alimentos e bebidas para cliente brasileiro com foco em estruturar e implantar atuação no mercado de luxo.'
+        },
+        {
+            'hc-key': 'br',
+            color: '#afccdc',
+            info: ''
+        },
+        {
+            'hc-key': 'ch',
+            color: '#afccdc',
+            info: 'Realização de viagens de aprendizagem com executivos brasileiros visitando empresas na Europa. Realização de treinamentos master em liderança com líderes de empresas locais (em cada país).'
+        },
+        {
+            'hc-key': 'de',
+            color: '#afccdc',
+            info: 'Realização de viagens de aprendizagem com executivos brasileiros visitando empresas na Europa. Realização de treinamentos master em liderança com líderes de empresas locais (em cada país).'
+        },
+        {
+            'hc-key': 'fi',
+            color: '#afccdc',
+            info: 'Realização de viagens de aprendizagem com executivos brasileiros visitando empresas na Europa. Realização de treinamentos master em liderança com líderes de empresas locais (em cada país).'
+        },
+        {
+            'hc-key': 'nl',
+            color: '#afccdc',
+            info: 'Realização de viagens de aprendizagem com executivos brasileiros visitando empresas na Europa. Realização de treinamentos master em liderança com líderes de empresas locais (em cada país).'
+        },
+        {
+            'hc-key': 'ru',
+            color: '#afccdc',
+            info: 'consultoria para rede de mercados na região da Sibéria - rede Anix de mercados com 300 lojas. Consultoria imersiva para implantação de modelo de gestão com unidades autogerenciáveis.'
+        }
+    ];
+
+    // Initialize the chart
+    Highcharts.mapChart('map', {
+        chart: {
+            map: topology,
+            backgroundColor: 'rgba(0, 0, 0, 0)'
+        },
+        plotOptions: {
+            map: {
+                nullColor: '#4c7084', // Defina a cor que você deseja para os países sem cor específica
+                borderColor: '#C8C8C8'
+            }
+        },
+        title: {
+            text: ''
+        },
+        legend: {
+            enabled: false
+        },
+        tooltip: {
+            useHTML: true,
+            headerFormat: '<b>{point.key}</b>:<br/>',
+            pointFormat: '{point.info}'
+        },
+        exporting: {
+            enabled: false // Desabilitar o ícone de download
+        },
+        credits: {
+            enabled: false // Desabilitar o footer (rodapé)
+        },
+        mapNavigation: {
+            enabled: false,
+            enableMouseWheelZoom: true // Habilita o zoom com a roda do mouse
+        },
+
+        mapView: {
+            fitToGeometry: {
+                type: 'MultiPoint',
+                coordinates: [
+                    // Alaska west
+                    [-164, 54],
+                    // Greenland north
+                    [-35, 84],
+                    // New Zealand east
+                    [179, -38],
+                    // Chile south
+                    [-68, -55]
+                ]
+            }
+        },
+
+        series: [
+            {
+                data,
+                keys: ['hc-key', 'color', 'info'],
+                name: 'Coffee'
+            },
+            {
+                type: 'mappoint',
+                color: '#333',
+                dataLabels: {
+                    format: '<b>{point.name}</b><br><span style="font-weight: normal; opacity: 0.5">{point.custom.arrival}</span>',
+                    align: 'left',
+                    verticalAlign: 'middle'
+                },
+                data: [
+                    {
+                        name: 'Argentina',
+                        geometry: {
+                            type: 'Point',
+                            coordinates: [-63.6167, -38.4161]
+                        },
+                        dataLabels: {
+                            align: 'right',
+                            style: {
+                                fontSize: '20px'
+                            }
+                        }
+                    },
+                    {
+                        name: 'Brasil',
+                        geometry: {
+                            type: 'Point',
+                            coordinates: [-51.9253, -14.2350]
+                        },
+                        dataLabels: {
+                            style: {
+                                fontSize: '20px'
+                            }
+                        }
+                    },
+                    {
+                        name: 'Suíça',
+                        geometry: {
+                            type: 'Point',
+                            coordinates: [8.2275, 46.8182]
+                        },
+                        dataLabels: {
+                            align: 'right',
+                            verticalAlign: 'top', // Defina o alinhamento vertical como 'top'
+                            style: {
+                                fontSize: '20px'
+                            }
+                        }
+                    },
+                    {
+                        name: 'Alemanha',
+                        geometry: {
+                            type: 'Point',
+                            coordinates: [10.4515, 51.1657]
+                        },
+                        dataLabels: {
+                            align: 'left',
+                            style: {
+                                fontSize: '20px'
+                            }
+                        }
+                    },
+                    {
+                        name: 'Finlândia',
+                        geometry: {
+                            type: 'Point',
+                            coordinates: [25.7482, 61.9241]
+                        },
+                        dataLabels: {
+                            style: {
+                                fontSize: '20px'
+                            }
+                        }
+                    },
+                    {
+                        name: 'Holanda',
+                        geometry: {
+                            type: 'Point',
+                            coordinates: [5.2913, 52.1326]
+                        },
+                        dataLabels: {
+                            align: 'right',
+                            style: {
+                                fontSize: '15px'
+                            }
+                        }
+                    },
+                    {
+                        name: 'Rússia',
+                        geometry: {
+                            type: 'Point',
+                            coordinates: [105.3188, 61.5240]
+                        },
+                        dataLabels: {
+                            align: 'left',
+                            style: {
+                                fontSize: '20px'
+                            }
+                        }
+                    }
+                ],
+                enableMouseTracking: false
+            }
+        ]
+    });
+})();
+
+</script>

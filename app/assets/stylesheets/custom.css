@@ -162,9 +162,6 @@ body {
     float: inline-end;
 }
 
-
-
-
 #in-practice-square-02-bg {
     background: url(../assets/in_practice/in_practice_background_02.png);
     background-size: 100%;
@@ -177,8 +174,6 @@ body {
     margin: 10px;
     float: inline-end;
 }
-
-
 
 #in-practice-square-03-bg {
     background: url(../assets/in_practice/in_practice_background_03.png);
@@ -193,8 +188,6 @@ body {
     float: inline-end;
 }
 
-
-
 #in-practice-bg {
     background: url(../assets/in_practice/background03.png);
     background-size: cover;
@@ -206,7 +199,7 @@ body {
 /* ACTING */
 
 #acting-bg {
-    background: url(../assets/acting/background04.png);
+    background: url(../assets/acting/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -236,8 +229,6 @@ body {
     margin: 10px;
 }
 
-
-
 #values-of-service-square-02-bg {
     background: url(../assets/values_of_service/values_of_service_02.png);
     background-size: 100%;
@@ -249,8 +240,6 @@ body {
     margin: 10px;
 }
 
-
-
 #values-of-service-square-03-bg {
     background: url(../assets/values_of_service/values_of_service_03.png);
     background-size: 100%;
@@ -261,9 +250,6 @@ body {
     background-repeat: no-repeat;
     margin: 10px;
 }
-
-
-
 
 #values-of-service-bg {
     background: url(../assets/values_of_service/background06.png);
