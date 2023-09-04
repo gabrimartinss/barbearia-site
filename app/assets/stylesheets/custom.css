@@ -98,6 +98,10 @@ body {
     align-items: center;
 }
 
+.flex-align-items-baseline {
+    align-items: baseline;
+}
+
 
 /* WHO ARE WE */
 
@@ -218,37 +222,12 @@ body {
 
 /* VALUES_OF_SERVICE */
 
-#values-of-service-square-01-bg {
-    background: url(../assets/values_of_service/values_of_service_01.png);
-    background-size: 100%;
-    width: 450px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    background-repeat: no-repeat;
-    margin: 10px;
-}
-
-#values-of-service-square-02-bg {
-    background: url(../assets/values_of_service/values_of_service_02.png);
-    background-size: 100%;
-    width: 450px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    background-repeat: no-repeat;
-    margin: 10px;
-}
-
-#values-of-service-square-03-bg {
-    background: url(../assets/values_of_service/values_of_service_03.png);
-    background-size: 100%;
-    width: 450px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    background-repeat: no-repeat;
-    margin: 10px;
+#values-bg {
+    background-color: #2d445157;
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to right, transparent -20.9%, #dfeaf0 20%, transparent, #dfeaf0 105%, transparent, #dfeaf0 155%);
+    border-image-slice: 1;
 }
 
 #values-of-service-bg {
@@ -266,4 +245,20 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    min-width: none;
+}
+
+@media (max-width: 1500px) {
+    div.navbar-fixed {
+        display: none !important;
+    }
+}
+
+@media (max-width: 846px) {
+    .text-title {
+        font-size: 2rem !important;
+    }
+    .text-sub-title {
+        font-size: 1rem !important;
+    }
 }
