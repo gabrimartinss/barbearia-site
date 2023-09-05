@@ -33,9 +33,14 @@
   $('#fullpage').fullpage({
     anchors: ['who_are_we', 'method', 'training', 'solutions', 'in_practice', 'acting', 'feedbacks', 'values_of_service', 'contact'],
     menu: '#nav-mobile',
+    paddingTop: "60px",
     fitToSection: false,
 		css3: true,
     setResponsive: true,
     autoScrolling: false,
+    afterLoad: function (origin, destination, direction) {
+      $('[data-anchor="solutions"]').css('padding-top', '60px');
+      $('[data-anchor="method"]').css('padding-top', '60px');
+    },
   });
 </script>
