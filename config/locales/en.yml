@@ -32,7 +32,7 @@
 en:
   # Buttons
   contact: "Contact"
-  know_more: "Want to know more"
+  know_more: "Know more"
 
   # Acting
   global_acting: "Global Acting"
@@ -50,12 +50,17 @@ en:
   # In Practice
   in: "In"
   practice: "Practice"
-  deep_analys_inpractice: "We start with a deep analysis of the company, <strong>considering three main fields</strong>:"
-  process_flow_inpractice: "<strong>Process flow and suppliers up to the <br> end customer: reducing friction in processes <br> related to customer service from start to finish, improving and creating value.</strong>"
-  capital_culture_inpractice: "<strong>Capital and culture: nurturing the values and <br> guiding principles of action in daily practice, cultivating autonomy and results <br> at all levels of the company.</strong>"
-  comunity_work_inpractice: "<strong>Work community building <br> meaning in the work, commitment <br> to deliverables, linking professionals' biographies <br> to the company's moment and generating a strong connection with work <br> and among team members.</strong>: <br><br>"
-  analys_consultancy_inpractice: "After joint analysis and diagnosis with the business leadership, we proceed with <strong>consulting support in the implementation</strong> of the necessary changes in practice <strong, ensuring the success and outcome of the improvements</strong>."
-
+  deep_analys_inpractice:
+    <p class="text-content">
+      We start with a deep analysis of the company, <strong>considering three main fields</strong><br>
+    </p>
+  process_flow_inpractice: "Process flow and suppliers up to the end customer: reducing friction in processes related to customer service from start to finish, improving and creating value."
+  capital_culture_inpractice: "Capital and culture: nurturing the values and guiding principles of action in daily practice, cultivating autonomy and results <br> at all levels of the company.</strong>"
+  comunity_work_inpractice: "Work community building meaning in the work, commitment to deliverables, linking professionals' biographies to the company's moment and generating a strong connection with work and among team members."
+  analys_consultancy_inpractice:
+    <p class="text-content">
+        After joint analysis and diagnosis with the business leadership, we proceed with <strong>consulting support in the implementation</strong> of the necessary changes in practice <strong, ensuring the success and outcome of the improvements</strong>.
+    </p>
   # Method
   the_method_method: "The Method"
   vincit_omnia_method: "Vincit Omnia"
@@ -85,11 +90,15 @@ en:
   better_performance_training: "Seeking better performance and professional consistency, we have structured<br>a training based on the latest study of Universal Laws.<br>Your team will be led to <strong>reconstruct their internal concepts and ideals<br></strong>in a unique journey of self-awareness.<br>At the end of the training, <strong>the team is guided</strong> to <strong>create practical projects<br></strong>to <strong>improve, innovate,</strong> and <strong>increase the profitability of the business.</strong>"
 
   # Values of Service
-  values_method_vos: "The values of our <strong>Vincit Omnia</strong> methodology consist of:"
-  root_influences_vos: "<strong>Prioritizing and maintaining the roots and influence<br>passed down through the generations;</strong>"
-  our_values_vos: "Our<br> Values"
-  purpose_work_vos: "<strong>Linking personal purpose to work;</strong>"
-  ethic_energy_vos: "<strong>Ethics with energetic action.</strong>"
+  values_method_vos:
+    <p class="text-content">
+      The values of our <strong>Vincit Omnia</strong> methodology consist of
+    </p>
+  root_influences_vos: "Prioritizing and maintaining the roots and influence passed down through the generations;"
+  our: "Our"
+  values: "Values"
+  purpose_work_vos: "Linking personal purpose to work;"
+  ethic_energy_vos: "Ethics with energetic action."
 
   # Who we are
   text_presentation_wwa: "We specialize in forming high-performance autonomous teams."
