@@ -156,37 +156,39 @@ body {
 
 /* IN_PRACTICE */
 
+.container-in-practice {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #in-practice-square-01-bg {
     background: url(../assets/in_practice/in_practice_background_01.png);
     background-size: 100%;
-    width: 400px;
-    height: 300px;
+    width: 410px;
+    height: 310px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
-    margin: 10px;
-    float: inline-end;
 }
 
 #in-practice-square-02-bg {
     background: url(../assets/in_practice/in_practice_background_02.png);
     background-size: 100%;
-    width: 400px;
-    height: 300px;
+    width: 410px;
+    height: 310px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
-    margin: 10px;
-    float: inline-end;
 }
 
 #in-practice-square-03-bg {
     background: url(../assets/in_practice/in_practice_background_03.png);
     background-size: 100%;
-    width: 400px;
-    height: 300px;
+    width: 410px;
+    height: 310px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -251,11 +253,17 @@ body {
     min-width: none;
 }
 
+
+/* RESPONSIVIDADE MENU */
+
 @media (max-width: 1500px) {
     div.navbar-fixed {
         display: none !important;
     }
 }
+
+
+/* RESPONSIVIDADE TEXT  */
 
 @media (max-width: 846px) {
     .text-title {
@@ -266,5 +274,16 @@ body {
     }
     .text-content {
         font-size: 0.8rem !important;
+    }
+}
+
+
+/* RESPONSIVIDADE IN PRACTICE */
+
+@media (max-width: 460px) {
+    #in-practice-square-01-bg,
+    #in-practice-square-02-bg,
+    #in-practice-square-03-bg {
+        height: calc(68vw - 10px);
     }
 }
