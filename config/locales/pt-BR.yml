@@ -60,5 +60,8 @@ pt-BR:
   ethic_energy_vos: "<strong>Ética com ação energética.</strong>"
 
   # Who we are
-  text_presentation_wwa: "Somos especialista em formar equipes autônomas de alto desempenho."
-  consultancy_wwa: "Pretamos consultoria e treinamentos especializados para <strong>empresas que buscam <br>alta performance operacional</strong> e <strong>diferenciação estratégica</strong>"
+  text_presentation_wwa: "Somos especialista em formar equipes autônomas de alto desempenho." 
+  consultancy_wwa: 
+    <p class="text-content">
+      Prestamos consultoria e treinamentos especializados para <strong>empresas que buscam alta performance operacional</strong> e <strong>diferenciação estratégica</strong>
+    </p>

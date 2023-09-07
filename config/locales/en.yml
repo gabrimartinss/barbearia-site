@@ -92,4 +92,7 @@ en:
 
   # Who we are
   text_presentation_wwa: "We specialize in forming high-performance autonomous teams."
-  consultancy_wwa: "We provide specialized consultancy and training for <strong>companies seeking <br>high operational performance</strong> and <strong>strategic differentiation</strong>."
+  consultancy_wwa:
+    <p class="text-content">
+      We provide specialized consultancy and training for <strong>companies seeking high operational performance</strong> and <strong>strategic differentiation</strong>.
+    </p>
