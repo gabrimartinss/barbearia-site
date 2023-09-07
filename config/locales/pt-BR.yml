@@ -6,8 +6,8 @@ pt-BR:
   # Acting
   global_acting: "Atuação Global"
   country_acting: "Países onde atuamos"
-  market_research: "Pesquisa de mercado e benchmark hoteleiro e de alimentos e bebidas para cliente brasileiro com foco em estruturar e implantar atuação no mercado de luxo."
-  europe_training: "Realização de viagens de aprendizagem com executivos brasileiros visitando empresas na Europa. Realização de treinamentos master em liderança com líderes de empresas locais (em cada país)."
+  market_research: "Pesquisa de mercado e benchmark hoteleiro e de alimentos e bebidas para clientes brasileiros, com foco em estruturar e implantar atuação no mercado de luxo."
+  europe_training: "Realização de viagens de aprendizado com executivos brasileiros visitando empresas na Europa. Realização de treinamentos master em liderança com líderes de empresas locais (em cada país)."
   consultancy_siberia: "consultoria para rede de mercados na região da Sibéria - rede Anix de mercados com 300 lojas. Consultoria imersiva para implantação de modelo de gestão com unidades autogerenciáveis."
 
   # Contact
@@ -17,11 +17,12 @@ pt-BR:
   feedback_feedbacks: "Feedback From Students"
 
   # In Pracrice
-  in_practice_inpractice: "Na Prática"
+  in: "Na"
+  practice: "Prática"
   deep_analys_inpractice: "Partimos de uma análise profunda da empressa, <strong>considerando três campos de principais</strong>:"
   process_flow_inpractice: "<strong>Fluxo de processos e fornecedores até o <br> cliente final: diminuindo os atritos em processos <br>relacionados ao serviço prestado ao cliente do <br>início ao fim, aprimoramento e geração de valor.</strong>"
   capital_culture_inpractice: "<strong>Capital e cultura: cultivando os valores e <br> princípios direcionadores de ação na pŕatica <br>diária, de forma a cultivar autonomia e resultados <br>em todos os níveis da empresa.</strong>"
-  comunity_work_inpractice: "<strong>Comunidade de trabalho construindo <br> sentido na realização do trabalho, compromisso <br>com as entregas, vinculandoás biografias <br>dos profissionais ao momento da empresa e <br>gerando forte conexão com o trabalho <br>e entre membros das equipes.</strong>: <br><br>"
+  comunity_work_inpractice: "<strong>Comunidade de trabalho construindo <br> sentido na realização do trabalho, compromisso <br>com as entregas, vinculando as biografias <br>dos profissionais ao momento da empresa e <br>gerando forte conexão com o trabalho <br>e entre membros das equipes.</strong></strong>: <br><br>"
   analys_consultancy_inpractice: "Após análise e diagnóstico conjunto com a diretoria do negócio, partimos para o <strong>apoio com consultoria na  implantação</strong> das <br>mudanças necessárias na prática <strong>garatindo conjuntamente o sucesso e o resultado das melhorias</strong>."
 
   # Method
@@ -32,7 +33,7 @@ pt-BR:
   better_operational_method: "Fortalecemos e <strong>garantimos as melhorias operacionais e resolução de<br>problemas</strong>, através da implantação de um modelo de gestão baseado em<br><strong>times autônomos de alto desempenho</strong>, que gerenciam suas rotinas e<br>resultados, através de indicadores, processos, treinamentos internos e<br>auditorias que <strong>garantam que a operação seja realizada com maestria por<br>todos os profissionais em cada setor ou área do negócio.</strong>"
 
   # Solutions
-  busyness_autonomy_solutions: "<strong>Desenvolvimento do negócio para autonomia:</strong> entrega de conhecimento aplicável, na prática, gerando idenpendência das equipes e do negócio"
+  busyness_autonomy_solutions: "<strong>Desenvolvimento do negócio para autonomia:</strong> entrega de conhecimento aplicável, na prática, gerando independência das equipes e do negócio."
   special_training_solutions: "<strong>Desenvolvimento de treinamento especializado.</strong>"
   strategy_practice_solutions: "<strong>Desenvolvimento de estratégia, planos práticos e apoio</strong> na implmentação de ações e projetos para o cumprimento de metas."
   development_structure_solutions: "<strong>Estruturação e desenvolvimento de pessoas nas competências de gestão e liderança.</strong>"
@@ -42,7 +43,7 @@ pt-BR:
   solutions_solutions: "Soluções"
   applied_solutions: "Aplicadas"
   conflict_solutions: "Solução de conflitos"
-  administrative_conseul_solutions: "<strong>Estruturação e formação de conselho de administração</strong>"
+  administrative_conseul_solutions: "<strong>Estruturação e formação de conselho de administração.</strong>"
   commercial_solutions: "<strong>Solução em representação comercial</strong>"
   crises_management_solutions: "<strong>Gestão de crises</strong>"
   new_partnership_solutions: "<strong>Intermediação e conexão com novos fornecedores e parceiros.</strong>"
