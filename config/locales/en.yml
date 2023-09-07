@@ -48,7 +48,8 @@ en:
   feedback_feedbacks: "Feedback From Students"
 
   # In Practice
-  in_practice_inpractice: "In Practice"
+  in: "In"
+  practice: "Practice"
   deep_analys_inpractice: "We start with a deep analysis of the company, <strong>considering three main fields</strong>:"
   process_flow_inpractice: "<strong>Process flow and suppliers up to the <br> end customer: reducing friction in processes <br> related to customer service from start to finish, improving and creating value.</strong>"
   capital_culture_inpractice: "<strong>Capital and culture: nurturing the values and <br> guiding principles of action in daily practice, cultivating autonomy and results <br> at all levels of the company.</strong>"
@@ -63,23 +64,23 @@ en:
   better_operational_method: "We strengthen and <strong>guarantee operational improvements and problem solving</strong> through the implementation of a management model based on<br><strong>high-performance autonomous teams</strong>, who manage their routines and<br>results through indicators, processes, internal training, and<br>audits to <strong>ensure that the operation is carried out masterfully by<br>all professionals in each sector or area of the business.</strong>"
 
   # Solutions
-  busyness_autonomy_solutions: "<strong>Business development for autonomy:</strong> delivery of practical knowledge, generating team and business independence."
-  special_training_solutions: "<strong>Specialized training development.</strong>"
-  strategy_practice_solutions: "<strong>Strategy development, practical plans, and support</strong> in the implementation of actions and projects to achieve goals."
-  development_structure_solutions: "<strong>Structuring and developing people in management and leadership competencies.</strong>"
-  management_model_solutions: "<strong>Implementation of a management model linked to the Vincit Omnia method.</strong>"
-  dialogue_partnership_solutions: "<strong>Dialogue partnership for the ultimate organizational responsibility.</strong>"
-  management_audit_solutions: "<strong>Management Audit</strong>"
+  busyness_autonomy_solutions: "Business development for autonomy: delivery of practical knowledge, generating team and business independence."
+  special_training_solutions: "Specialized training development."
+  strategy_practice_solutions: "Strategy development, practical plans, and support in the implementation of actions and projects to achieve goals."
+  development_structure_solutions: "Structuring and developing people in management and leadership competencies."
+  management_model_solutions: "Implementation of a management model linked to the Vincit Omnia method."
+  dialogue_partnership_solutions: "Dialogue partnership for the ultimate organizational responsibility."
+  management_audit_solutions: "Management Audit"
   solutions_solutions: "Solutions"
   applied_solutions: "Applied"
   conflict_solutions: "Conflict Resolution"
-  administrative_conseul_solutions: "<strong>Structuring and forming the board of directors.</strong>"
-  commercial_solutions: "<strong>Commercial representation solutions.</strong>"
-  crises_management_solutions: "<strong>Crisis management.</strong>"
-  new_partnership_solutions: "<strong>Intermediation and connection with new suppliers and partners.</strong>"
+  administrative_conseul_solutions: "Structuring and forming the board of directors."
+  commercial_solutions: "Commercial representation solutions."
+  crises_management_solutions: "Crisis management."
+  new_partnership_solutions: "Intermediation and connection with new suppliers and partners."
 
   # Training
-  the_training_training: "Training"
+  the_training_training: "The Training"
   high_performance_training: "High Performance A Priori"
   better_performance_training: "Seeking better performance and professional consistency, we have structured<br>a training based on the latest study of Universal Laws.<br>Your team will be led to <strong>reconstruct their internal concepts and ideals<br></strong>in a unique journey of self-awareness.<br>At the end of the training, <strong>the team is guided</strong> to <strong>create practical projects<br></strong>to <strong>improve, innovate,</strong> and <strong>increase the profitability of the business.</strong>"
 
