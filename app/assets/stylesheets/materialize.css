@@ -4242,11 +4242,13 @@ nav ul a.btn-large>.material-icons,
 nav ul a.btn-flat>.material-icons,
 nav ul a.btn-floating>.material-icons {
     height: inherit;
-    line-height: inherit
+    line-height: inherit;
+    transition: all ease-in-out .3s;
 }
 
 nav ul a:hover {
-    background-color: rgba(223, 234, 240, 0.5)
+    background-color: rgba(223, 234, 240, 0.5);
+    transition: all ease-in-out .6s;
 }
 
 nav ul.left {
