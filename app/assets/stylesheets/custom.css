@@ -3,6 +3,10 @@ body {
     font-family: 'Montserrat';
 }
 
+strong {
+    font-weight: 700 !important;
+}
+
 .line {
     position: relative;
     display: flex;
