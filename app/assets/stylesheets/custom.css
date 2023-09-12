@@ -1,6 +1,11 @@
+html {
+    line-height: 1.5;
+    font-family: 'Montserrat';
+    font-weight: normal;
+}
+
 body {
     background: #03060de8;
-    font-family: 'Montserrat';
 }
 
 strong {
