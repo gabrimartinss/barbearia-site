@@ -106,3 +106,9 @@ en:
     <p class="text-content">
       We provide specialized consultancy and training for <strong>companies seeking high operational performance</strong> and <strong>strategic differentiation</strong>.
     </p>
+
+  # Contact
+  contact: "Contact"
+  wpp: "WhatsApp"
+  lk: "Linkedin"
+  email: "E-mail"
