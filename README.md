@@ -7,13 +7,13 @@ Esse projeto é um site para empresa Apriori.
 Para rodar localmente, execute os seguintes comando:
 
 ```console
-    docker build . -t apriori-lp
+docker build . -t apriori-lp
 ```
 
 Agora o comando para subir o container:
 
 ```console
-    docker run --rm -p 3000:3000 apriori-lp
+docker run --rm -p 3000:3000 apriori-lp
 ```
 
 # Comando Extras
@@ -21,7 +21,7 @@ Agora o comando para subir o container:
 Entrar no bash do container:
 
 ```console
-    docker run --rm -ti apriori-lp bash
+docker run --rm -ti apriori-lp bash
 ```
 
 Para quem usar WSL 2 no windows, precisa descobrir o IP do WSL:
@@ -29,7 +29,7 @@ Para quem usar WSL 2 no windows, precisa descobrir o IP do WSL:
 Dentro do terminal do Linux, execute o seguinte comando para obter o endereço IP do adaptador de rede do WSL 2:
 
 ```console
-    ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
+ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
 ```
 
 * Ruby version
