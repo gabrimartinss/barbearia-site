@@ -236,14 +236,6 @@ strong {
 
 /* VALUES_OF_SERVICE */
 
-#values-bg {
-    background-color: #2d445157;
-    color: #ffffff;
-    border: 1px solid transparent;
-    border-image: linear-gradient(to right, transparent -20.9%, #dfeaf0 20%, transparent, #dfeaf0 105%, transparent, #dfeaf0 155%);
-    border-image-slice: 1;
-}
-
 #values-of-service-bg {
     background: url(../assets/values_of_service/background06.png);
     background-size: cover;
@@ -294,5 +286,126 @@ strong {
     #in-practice-square-02-bg,
     #in-practice-square-03-bg {
         height: calc(68vw - 10px);
+    }
+}
+
+
+/* EFEITO BORDA VIEW VALUES OD SERVICE */
+
+.border-effect {
+    background-color: #2d44512a;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    overflow: hidden;
+    border: none;
+}
+
+.line-1 {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to right, transparent -20.9%, #dfeaf0 20%, transparent, #dfeaf0 105%, transparent, #dfeaf0 155%);
+    animation: move1 5s infinite linear;
+}
+
+.line-2 {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to right, transparent -20.9%, #dfeaf0 20%, transparent, #dfeaf0 105%, transparent, #dfeaf0 155%);
+    animation: move2 5s infinite linear;
+}
+
+.line-3 {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: linear-gradient(to right, transparent -20.9%, #dfeaf0 20%, transparent, #dfeaf0 105%, transparent, #dfeaf0 155%);
+    animation: move3 5s infinite linear;
+}
+
+.line-4 {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, transparent -20.9%, #dfeaf0 20%, transparent, #dfeaf0 105%, transparent, #dfeaf0 155%);
+    animation: move4 5s infinite linear;
+}
+
+@keyframes move1 {
+    0% {
+        height: 100%;
+        bottom: 0;
+    }
+    54% {
+        height: 0;
+        bottom: 100%;
+    }
+    55% {
+        height: 0;
+        bottom: 0;
+    }
+    100% {
+        height: 100%;
+        bottom: 0;
+    }
+}
+
+@keyframes move2 {
+    0% {
+        width: 0;
+        left: 0;
+    }
+    50% {
+        width: 100%;
+        left: 0;
+    }
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+
+@keyframes move3 {
+    0% {
+        height: 100%;
+        top: 0;
+    }
+    54% {
+        height: 0;
+        top: 100%;
+    }
+    55% {
+        height: 0;
+        top: 0;
+    }
+    100% {
+        height: 100%;
+        top: 0;
+    }
+}
+
+@keyframes move4 {
+    0% {
+        width: 0;
+        right: 0;
+    }
+    55% {
+        width: 100%;
+        right: 0;
+    }
+    100% {
+        width: 0;
+        right: 100%;
     }
 }
