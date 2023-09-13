@@ -304,54 +304,42 @@ strong {
 
 .line-1 {
     position: absolute;
+    width: 1px;
+    height: 100%;
+    left: 0;
+    bottom: 0;
     background: linear-gradient(to right, transparent -20.9%, #dfeaf0 20%, transparent, #dfeaf0 105%, transparent, #dfeaf0 155%);
     animation: move1 5s infinite linear;
 }
 
 .line-2 {
     position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 0;
     background: linear-gradient(to right, transparent -20.9%, #dfeaf0 20%, transparent, #dfeaf0 105%, transparent, #dfeaf0 155%);
     animation: move2 5s infinite linear;
 }
 
 .line-3 {
     position: absolute;
+    width: 1px;
+    height: 100%;
+    right: 0;
+    top: 0;
     background: linear-gradient(to right, transparent -20.9%, #dfeaf0 20%, transparent, #dfeaf0 105%, transparent, #dfeaf0 155%);
     animation: move3 5s infinite linear;
 }
 
 .line-4 {
     position: absolute;
+    width: 100%;
+    height: 1px;
+    right: 0;
+    bottom: 0;
     background: linear-gradient(to right, transparent -20.9%, #dfeaf0 20%, transparent, #dfeaf0 105%, transparent, #dfeaf0 155%);
     animation: move4 5s infinite linear;
-}
-
-.line-1 {
-    width: 1px;
-    height: 100%;
-    left: 0;
-    bottom: 0;
-}
-
-.line-2 {
-    width: 100%;
-    height: 1px;
-    left: 0;
-    top: 0;
-}
-
-.line-3 {
-    width: 1px;
-    height: 100%;
-    right: 0;
-    top: 0;
-}
-
-.line-4 {
-    width: 100%;
-    height: 1px;
-    right: 0;
-    bottom: 0;
 }
 
 @keyframes move1 {
