@@ -66,3 +66,9 @@ pt-BR:
     <p class="text-content">
       Prestamos consultoria e treinamentos especializados para <strong>empresas que buscam alta performance operacional</strong> e <strong>diferenciação estratégica</strong>
     </p>
+
+  # Contact
+  contact: "Contato"
+  wpp: "WhatsApp"
+  lk: "Linkedin"
+  email: "e-mail"

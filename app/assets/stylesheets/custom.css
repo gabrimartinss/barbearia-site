@@ -74,6 +74,14 @@ strong {
     color: #ffffff;
 }
 
+
+.btn-style-contact {
+    border-radius: 20px 0px 20px 0px;
+    width: 412px;
+    height: 410px;
+    color: #ffffff;
+}
+
 .btn-style:hover {
     cursor: pointer;
 }
@@ -254,6 +262,44 @@ strong {
     min-width: none;
 }
 
+#contact-01-bg {
+    background: url(../assets/contact/01_contact.png);
+    background-size: 100%;
+    width: 410px;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+#contact-02-bg {
+    background: url(../assets/contact/02_contact.png);
+    background-size: 100%;
+    width: 410px;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+#contact-03-bg {
+    background: url(../assets/contact/03_contact.png);
+    background-size: 100%;
+    width: 410px;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.container-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 /* RESPONSIVIDADE MENU */
 
