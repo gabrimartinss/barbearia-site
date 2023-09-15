@@ -72,18 +72,14 @@ strong {
     width: 190px;
     height: 40px;
     color: #ffffff;
-}
-
-
-.btn-style-contact {
-    border-radius: 20px 0px 20px 0px;
-    width: 412px;
-    height: 410px;
-    color: #ffffff;
+    transition: all ease-in-out .3s;
 }
 
 .btn-style:hover {
     cursor: pointer;
+    border-radius: 20px 20px 20px 20px;
+    transform: scale(1.1);
+    transition: all ease-in-out .4s;
 }
 
 .btn-a {
@@ -300,6 +296,7 @@ strong {
     flex-wrap: wrap;
     justify-content: center;
 }
+
 
 /* RESPONSIVIDADE MENU */
 
