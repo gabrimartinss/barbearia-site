@@ -261,8 +261,8 @@ strong {
 #contact-01-bg {
     background: url(../assets/contact/01_contact.png);
     background-size: 100%;
-    width: 410px;
-    height: 310px;
+    width: 310px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -272,8 +272,8 @@ strong {
 #contact-02-bg {
     background: url(../assets/contact/02_contact.png);
     background-size: 100%;
-    width: 410px;
-    height: 310px;
+    width: 310px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -283,8 +283,19 @@ strong {
 #contact-03-bg {
     background: url(../assets/contact/03_contact.png);
     background-size: 100%;
-    width: 410px;
-    height: 310px;
+    width: 310px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+#contact-04-bg {
+    background: url(../assets/contact/04_contact.png);
+    background-size: 100%;
+    width: 310px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
