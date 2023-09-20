@@ -318,10 +318,12 @@ strong {
     background-repeat: no-repeat;
 }
 
-.container-contact {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.contact-hover {
+    transition: all ease-in-out 0.3s;
+}
+
+.contact-hover:hover {
+    transform: scale(1.1);
 }
 
 
