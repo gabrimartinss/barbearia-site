@@ -5421,7 +5421,7 @@ button.btn-floating {
 }
 
 .dropdown-content {
-    background-color: #fff;
+    background-color: #2d4451;
     margin: 0;
     display: none;
     min-width: 100px;
@@ -5451,7 +5451,7 @@ button.btn-floating {
 
 .dropdown-content li:hover,
 .dropdown-content li.active {
-    background-color: #eee
+    background-color: #416174
 }
 
 .dropdown-content li:focus {

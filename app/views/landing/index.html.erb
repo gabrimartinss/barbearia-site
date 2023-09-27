@@ -30,8 +30,8 @@
 
   <!-- Dropdown Structure -->
   <ul id='dropdown1' class='dropdown-content'>
-    <li><%= link_to image_tag("flags/br.png", alt: t('portuguese')) +  t('portuguese') , url_for(:locale => 'pt-BR') %></li>
-    <li><%= link_to image_tag("flags/eua.png", alt: t('english')) +  t('english'), url_for(:locale => 'en') %></li>
+    <li><%= link_to image_tag("flags/br.png", alt: t('portuguese'), style: 'display: inline-block; vertical-align: middle;') +  t('portuguese') , url_for(:locale => 'pt-BR') %></li>
+    <li><%= link_to image_tag("flags/eua.png", alt: t('english'), style: 'display: inline-block; vertical-align: middle;') +  t('english'), url_for(:locale => 'en') %></li>
   </ul>
 
 <div id="fullpage">
