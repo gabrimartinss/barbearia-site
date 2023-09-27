@@ -287,6 +287,11 @@ strong {
 
 /* CONTACT */
 
+.contact-col {
+    max-width: 200px; /* Defina o tamanho desejado em pixels */
+}
+
+
 #contact-bg {
     background: url(../assets/contact/background_black.png);
     background-size: cover;
