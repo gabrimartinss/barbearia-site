@@ -4945,7 +4945,7 @@ small {
 
 .tabs .tab a:focus,
 .tabs .tab a:focus.active {
-    background-color: rgba(246, 178, 181, 0.2);
+    background-color: #2d4451;
     outline: none
 }
 
@@ -5982,7 +5982,7 @@ select:focus {
 
 button:focus {
     outline: none;
-    background-color: #2ab7a9
+    background-color: transparent
 }
 
 label {
