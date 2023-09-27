@@ -4945,7 +4945,7 @@ small {
 
 .tabs .tab a:focus,
 .tabs .tab a:focus.active {
-    background-color: rgba(246, 178, 181, 0.2);
+    background-color: #2d4451;
     outline: none
 }
 
@@ -5421,7 +5421,7 @@ button.btn-floating {
 }
 
 .dropdown-content {
-    background-color: #fff;
+    background-color: #2d4451;
     margin: 0;
     display: none;
     min-width: 100px;
@@ -5451,7 +5451,7 @@ button.btn-floating {
 
 .dropdown-content li:hover,
 .dropdown-content li.active {
-    background-color: #eee
+    background-color: #416174
 }
 
 .dropdown-content li:focus {
@@ -5982,7 +5982,7 @@ select:focus {
 
 button:focus {
     outline: none;
-    background-color: #2ab7a9
+    background-color: transparent
 }
 
 label {

@@ -12,6 +12,27 @@ strong {
     font-weight: 700 !important;
 }
 
+
+/* materialize */
+
+.btn {
+    background-color: #2d4451 !important;
+}
+
+.btn:hover {
+    background-color: #416174 !important;
+}
+
+
+/* Estilo para o container da bandeira e do dropdown */
+
+.flags {
+    position: fixed;
+    right: 20px;
+    z-index: 9999;
+    top: 15px;
+}
+
 .line {
     position: relative;
     display: flex;
