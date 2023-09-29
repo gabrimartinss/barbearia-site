@@ -35,6 +35,14 @@ en:
   # Buttons
   contact: "Contact"
   know_more: "Know more"
+  home: "Home"
+  method: "Method"
+  training: "Training"
+  solutions: "Solutions"
+  in_practice: "In Practice"
+  acting: "Global Acting"
+  feedbacks: "Feedbacks"
+  our_values: "Our Values"
 
   # Acting
   global_acting: "Global Acting"
@@ -44,8 +52,6 @@ en:
   market_research: "Market research and benchmarking for Brazilian clients with a focus on structuring and implementing luxury market operations."
   europe_training: "Organizing learning trips with Brazilian executives visiting companies in Europe. Conducting master leadership training with local company leaders (in each country)."
   consultancy_siberia: "Consulting for a network of markets in the Siberian region - Anix market network with 300 stores. Immersive consulting for the implementation of a self-managed unit management model."
-
-  # Contact
 
   # Feedbacks
   testimonials_feedbacks: "Testimonials"
