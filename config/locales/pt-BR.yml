@@ -4,6 +4,14 @@ pt-BR:
   # Buttons
   contact: "Contato"
   know_more: "Quero saber mais"
+  home: "Início"
+  method: "Método"
+  training: "Treinamento"
+  solutions: "Soluções"
+  in_practice: "Na Prática"
+  acting: "Atuação Global"
+  feedbacks: "Depoimentos"
+  values_of_service: "Nossos Valores"
 
   # Acting
   global_acting: "Atuação Global"
@@ -13,8 +21,6 @@ pt-BR:
   market_research: "Pesquisa de mercado e benchmark hoteleiro e de alimentos e bebidas para clientes brasileiros, com foco em estruturar e implantar atuação no mercado de luxo."
   europe_training: "Realização de viagens de aprendizado com executivos brasileiros visitando empresas na Europa. Realização de treinamentos master em liderança com líderes de empresas locais (em cada país)."
   consultancy_siberia: "consultoria para rede de mercados na região da Sibéria - rede Anix de mercados com 300 lojas. Consultoria imersiva para implantação de modelo de gestão com unidades autogerenciáveis."
-
-  # Contact
 
   # Feedbacks
   testimonials_feedbacks: "Depoimentos"
