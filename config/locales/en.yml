@@ -39,6 +39,8 @@ en:
   # Acting
   global_acting: "Global Acting"
   country_acting: "Countries where we operate"
+  leadership_research: "Conducting a leadership master class and learning trip."
+  brasil_research: "Online and in-person courses; Learning trips; Implementation of management model with autonomous teams; Management consulting; Coaching; Lectures; Public relations; Commercial representation."
   market_research: "Market research and benchmarking for Brazilian clients with a focus on structuring and implementing luxury market operations."
   europe_training: "Organizing learning trips with Brazilian executives visiting companies in Europe. Conducting master leadership training with local company leaders (in each country)."
   consultancy_siberia: "Consulting for a network of markets in the Siberian region - Anix market network with 300 stores. Immersive consulting for the implementation of a self-managed unit management model."
@@ -57,7 +59,7 @@ en:
       We start with a deep analysis of the company, <strong>considering three main fields</strong><br>
     </p>
   process_flow_inpractice: "Process flow and suppliers up to the end customer: reducing friction in processes related to customer service from start to finish, improving and creating value."
-  capital_culture_inpractice: "Capital and culture: nurturing the values and guiding principles of action in daily practice, cultivating autonomy and results <br> at all levels of the company.</strong>"
+  capital_culture_inpractice: "Capital and culture: nurturing the values and guiding principles of action in daily practice, cultivating autonomy and results at all levels of the company."
   comunity_work_inpractice: "Work community building meaning in the work, commitment to deliverables, linking professionals' biographies to the company's moment and generating a strong connection with work and among team members."
   analys_consultancy_inpractice:
     <p class="text-content">

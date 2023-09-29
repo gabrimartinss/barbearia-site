@@ -90,11 +90,12 @@ strong {
 
 .btn-style {
     border-radius: 20px 0px 20px 0px;
-    width: 190px;
+    width: 240px;
     height: 40px;
     color: #ffffff;
     transition: all ease-in-out .3s;
 }
+
 
 .btn-style:hover {
     cursor: pointer;
@@ -288,7 +289,7 @@ strong {
 /* CONTACT */
 
 .contact-col {
-    max-width: 200px; /* Defina o tamanho desejado em pixels */
+    max-width: 200px;
 }
 
 
