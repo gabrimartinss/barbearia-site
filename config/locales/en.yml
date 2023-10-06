@@ -62,7 +62,7 @@ en:
   practice: "Practice"
   deep_analys_inpractice:
     <p class="text-content">
-      We start with a deep analysis of the company, <strong>considering three main fields</strong><br>
+      We start with a deep analysis of the company, <strong>considering three main fields:</strong><br>
     </p>
   process_flow_inpractice: "Process flow and suppliers up to the end customer: reducing friction in processes related to customer service from start to finish, improving and creating value."
   capital_culture_inpractice: "Capital and culture: nurturing the values and guiding principles of action in daily practice, cultivating autonomy and results at all levels of the company."
@@ -102,7 +102,7 @@ en:
   # Values of Service
   values_method_vos:
     <p class="text-content">
-      The values of our <strong>Vincit Omnia</strong> methodology consist of
+      The values of our <strong>Vincit Omnia</strong> methodology consist of:<strong></strong>
     </p>
   root_influences_vos: "Prioritizing and maintaining the roots and influence passed down through the generations;"
   our: "Our"
@@ -113,7 +113,7 @@ en:
   # Who we are
   text_presentation_wwa: "We specialize in forming high-performance autonomous teams."
   consultancy_wwa:
-    <p class="text-content">
+    <p class="text-content text-center">
       We provide specialized consultancy and training for <strong>companies seeking high operational performance</strong> and <strong>strategic differentiation</strong>.
     </p>
 
