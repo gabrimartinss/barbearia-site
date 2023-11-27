@@ -12,6 +12,8 @@ pt-BR:
   acting: "Atuação Global"
   feedbacks: "Depoimentos"
   values_of_service: "Nossos Valores"
+  our: "Nossos"
+  values: "Valores"
 
   # Acting
   global_acting: "Atuação Global"
@@ -24,7 +26,7 @@ pt-BR:
 
   # Feedbacks
   testimonials_feedbacks: "Depoimentos"
-  feedback_feedbacks: "Feedback From Students"
+  feedback_feedbacks: "Feedback dos Estudantes"
 
   # In Pracrice
   in: "Na"
@@ -38,9 +40,9 @@ pt-BR:
   # Method
   the_method_method: "O Método"
   vincit_omnia_method: "Vincit Omnia"
-  overtheyears_method: "Projetamos ao longo dos anos um método: <strong>Vincit Omnia</strong> que, traduzido<br>do latim, significa: Conquiste Tudo. Nosso método tem como base o<br><strong>estudo aprofundado do comportamento humano</strong>, arquétipos, vertentesde<br>escolas filosóficas dos últimos <strong>3000 anos</strong> e embasamento em<br>pesquisas de <strong>tendências comportamentais sociais dos dias atuais.</strong></br></br>"
-  auto_knowledge_method: "Acreditamos que o <strong>autoconhecimento</strong> e <strong>objetivos pessoais</strong> devem se<br>entrelaçar a um propósito empresarial maior, vinculando as necessidades<br>da empresa e de seus colaboradores, <strong>permitindo o crescimento efetivo e<br>lucrativo para todos os envolvidos</strong>.</br></br>"
-  better_operational_method: "Fortalecemos e <strong>garantimos as melhorias operacionais e resolução de<br>problemas</strong>, através da implantação de um modelo de gestão baseado em<br><strong>times autônomos de alto desempenho</strong>, que gerenciam suas rotinas e<br>resultados, através de indicadores, processos, treinamentos internos e<br>auditorias que <strong>garantam que a operação seja realizada com maestria por<br>todos os profissionais em cada setor ou área do negócio.</strong>"
+  overtheyears_method: "Projetamos ao longo dos anos um método: <strong>Vincit Omnia</strong> que, traduzido do latim, significa: Conquiste Tudo. Nosso método tem como base o <strong>estudo aprofundado do comportamento humano</strong>, arquétipos, vertentes de escolas filosóficas dos últimos <strong>3000 anos</strong> e embasamento em pesquisas de <strong>tendências comportamentais sociais dos dias atuais.</strong></br></br>"
+  auto_knowledge_method: "Acreditamos que o <strong>autoconhecimento</strong> e <strong>objetivos pessoais</strong> devem se entrelaçar a um propósito empresarial maior, vinculando as necessidades da empresa e de seus colaboradores, <strong>permitindo o crescimento efetivo e lucrativo para todos os envolvidos</strong>.</br></br>"
+  better_operational_method: "Fortalecemos e <strong>garantimos as melhorias operacionais e resolução de problemas</strong>, através da implantação de um modelo de gestão baseado em <strong>times autônomos de alto desempenho</strong>, que gerenciam suas rotinas e resultados, através de indicadores, processos, treinamentos internos e auditorias que <strong>garantam que a operação seja realizada com maestria por<br>todos os profissionais em cada setor ou área do negócio.</strong>"
 
   # Solutions
   busyness_autonomy_solutions: "Desenvolvimento do negócio para autonomia: entrega de conhecimento aplicável, na prática, gerando independência das equipes e do negócio."
@@ -61,7 +63,7 @@ pt-BR:
   # Training
   the_training_training: "O Treinamento"
   high_performance_training: "Alto Desempenho A Priori"
-  better_performance_training: "Buscando melhor desempenho e consistência profissional, estruturamos<br>um treinamento baseado no mais atual estudo das leis Universais.<br>Sua equipe será levada a <strong>reconstruir seus conceitos e ideais internos<br></strong>em uma jornada única de autoconhecimento.<br>Ao final do treinamento, <strong>a equipe é conduzida</strong> a <strong>criar projetos práticos<br></strong>para <strong>melhorar</strong>, <strong>inovar</strong> e <strong>aumentar a lucratividade do negócio.</strong>"
+  better_performance_training: "Buscando melhor desempenho e consistência profissional, estruturamos um treinamento baseado no mais atual estudo das leis Universais.Sua equipe será levada a <strong>reconstruir seus conceitos e ideais internos </strong>em uma jornada única de autoconhecimento.<br>Ao final do treinamento, <strong>a equipe é conduzida</strong> a <strong>criar projetos práticos<br></strong>para <strong>melhorar</strong>, <strong>inovar</strong> e <strong>aumentar a lucratividade do negócio.</strong>"
 
   # Values of Service
   values_method_vos: "Os valores de nossa metodologia Vincit Omnia consistem em:"
