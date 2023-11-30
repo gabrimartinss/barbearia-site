@@ -50,7 +50,7 @@ strong {
 
 .text-color {
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
     text-transform: uppercase;
     color: transparent;
@@ -73,8 +73,8 @@ strong {
 
 .text-sub-title {
     position: absolute;
-    font-size: 1.8rem;
-    font-weight: 200;
+    font-size: 1.5rem;
+    font-weight: 300;
     text-align: center;
     text-transform: uppercase;
     color: #7f9fb1;
