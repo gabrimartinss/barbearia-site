@@ -34,7 +34,7 @@ pt-BR:
   deep_analys_inpractice: "Partimos de uma análise profunda da empressa, considerando três campos de principais:"
   process_flow_inpractice: "Fluxo de processos e fornecedores até o cliente final: diminuindo os atritos em processos relacionados ao serviço prestado ao cliente do início ao fim, aprimoramento e geração de valor."
   capital_culture_inpractice: "Capital e cultura: cultivando os valores e princípios direcionadores de ação na pŕatica diária, de forma a cultivar autonomia e resultados em todos os níveis da empresa."
-  comunity_work_inpractice: "Comunidade de trabalho construindo sentido na realização do trabalho, compromisso com as entregas, vinculando as biografias dos profissionais ao momento da empresa e gerando forte conexão com o trabalho e entre membros das equipes."
+  comunity_work_inpractice: "Comunidade de trabalho construindo sentido na realização do trabalho, compromisso com as entregas, vinculando as biografias dos profissionais ao momento da empresa e gerando forte conexão com o trabalho entre membros das equipes."
   analys_consultancy_inpractice: "Após análise e diagnóstico conjunto com a diretoria do negócio, partimos para o apoio com consultoria na  implantação das mudanças necessárias na prática garatindo conjuntamente o sucesso e o resultado das melhorias."
 
   # Method
@@ -85,3 +85,5 @@ pt-BR:
   lk: "Linkedin"
   email: "E-mail"
   instagram: "Instagram"
+  wppcontact:
+    link_text: "Olá, Estou interessado nos serviços prestados pela A Priori. Eu gostaria de saber mais!"
