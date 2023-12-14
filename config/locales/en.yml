@@ -42,7 +42,7 @@ en:
   in_practice: "In Practice"
   acting: "Global Acting"
   feedbacks: "Feedbacks"
-  our_values: "Our Values"
+  values_of_service: "Our Values"
 
   # Acting
   global_acting: "Global Acting"
@@ -66,7 +66,7 @@ en:
     </p>
   process_flow_inpractice: "Process flow and suppliers up to the end customer: reducing friction in processes related to customer service from start to finish, improving and creating value."
   capital_culture_inpractice: "Capital and culture: nurturing the values and guiding principles of action in daily practice, cultivating autonomy and results at all levels of the company."
-  comunity_work_inpractice: "Work community building meaning in the work, commitment to deliverables, linking professionals' biographies to the company's moment and generating a strong connection with work and among team members."
+  comunity_work_inpractice: "Work community building meaning in the work, commitment to deliverables, linking professionals' biographies to the company's moment and generating a strong connection with work among team members."
   analys_consultancy_inpractice:
     <p class="text-content">
         After joint analysis and diagnosis with the business leadership, we proceed with <strong>consulting support in the implementation</strong> of the necessary changes in practice <strong, ensuring the success and outcome of the improvements</strong>.
@@ -123,3 +123,5 @@ en:
   lk: "Linkedin"
   email: "E-mail"
   instagram: "Instagram"
+  wppcontact:
+    link_text: "Hello, I'm interested in the services provided by A Priori. I would like to know more!"
