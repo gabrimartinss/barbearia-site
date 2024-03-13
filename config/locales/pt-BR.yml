@@ -15,75 +15,9 @@ pt-BR:
   our: "Nossos"
   values: "Valores"
 
-  # Acting
-  global_acting: "Atuação Global"
-  country_acting: "Países onde atuamos"
-  leadership_research: "Realização de leadership master class e viagem de aprendizagem."
-  brasil_research: "Cursos on-line e presenciais; Viagens de aprendizagem; Implantação de modelo de gestão com times autônomos; Consultoria em Gestão; Coaching; Palestras; Relações públicas; Representação comercial."
-  market_research: "Pesquisa de mercado e benchmark hoteleiro e de alimentos e bebidas para clientes brasileiros, com foco em estruturar e implantar atuação no mercado de luxo."
-  europe_training: "Realização de viagens de aprendizado com executivos brasileiros visitando empresas na Europa. Realização de treinamentos master em liderança com líderes de empresas locais (em cada país)."
-  consultancy_siberia: "consultoria para rede de mercados na região da Sibéria - rede Anix de mercados com 300 lojas. Consultoria imersiva para implantação de modelo de gestão com unidades autogerenciáveis."
-
-  # Feedbacks
-  testimonials_feedbacks: "Depoimentos"
-  feedback_feedbacks: "Feedback dos Estudantes"
-
-  # In Pracrice
-  in: "Na"
-  practice: "Prática"
-  deep_analys_inpractice: "Partimos de uma análise profunda da empressa, considerando três campos de principais:"
-  process_flow_inpractice: "Fluxo de processos e fornecedores até o cliente final: diminuindo os atritos em processos relacionados ao serviço prestado ao cliente do início ao fim, aprimoramento e geração de valor."
-  capital_culture_inpractice: "Capital e cultura: cultivando os valores e princípios direcionadores de ação na pŕatica diária, de forma a cultivar autonomia e resultados em todos os níveis da empresa."
-  comunity_work_inpractice: "Comunidade de trabalho construindo sentido na realização do trabalho, compromisso com as entregas, vinculando as biografias dos profissionais ao momento da empresa e gerando forte conexão com o trabalho entre membros das equipes."
-  analys_consultancy_inpractice: "Após análise e diagnóstico conjunto com a diretoria do negócio, partimos para o apoio com consultoria na  implantação das mudanças necessárias na prática garatindo conjuntamente o sucesso e o resultado das melhorias."
-
-  # Method
-  the_method_method: "O Método"
-  vincit_omnia_method: "Vincit Omnia"
-  overtheyears_method: "Projetamos ao longo dos anos um método: <strong>Vincit Omnia</strong> que, traduzido do latim, significa: Conquiste Tudo. Nosso método tem como base o <strong>estudo aprofundado do comportamento humano</strong>, arquétipos, vertentes de escolas filosóficas dos últimos <strong>3000 anos</strong> e embasamento em pesquisas de <strong>tendências comportamentais sociais dos dias atuais.</strong></br></br>"
-  auto_knowledge_method: "Acreditamos que o <strong>autoconhecimento</strong> e <strong>objetivos pessoais</strong> devem se entrelaçar a um propósito empresarial maior, vinculando as necessidades da empresa e de seus colaboradores, <strong>permitindo o crescimento efetivo e lucrativo para todos os envolvidos</strong>.</br></br>"
-  better_operational_method: "Fortalecemos e <strong>garantimos as melhorias operacionais e resolução de problemas</strong>, através da implantação de um modelo de gestão baseado em <strong>times autônomos de alto desempenho</strong>, que gerenciam suas rotinas e resultados, através de indicadores, processos, treinamentos internos e auditorias que <strong>garantam que a operação seja realizada com maestria por<br>todos os profissionais em cada setor ou área do negócio.</strong>"
-
-  # Solutions
-  busyness_autonomy_solutions: "Desenvolvimento do negócio para autonomia: entrega de conhecimento aplicável, na prática, gerando independência das equipes e do negócio."
-  special_training_solutions: "Desenvolvimento de treinamento especializado."
-  strategy_practice_solutions: "Desenvolvimento de estratégia, planos práticos e apoio na implmentação de ações e projetos para o cumprimento de metas."
-  development_structure_solutions: "Estruturação e desenvolvimento de pessoas nas competências de gestão e liderança."
-  management_model_solutions: "Implementação de modelo de gestão vinculado ao método Vincit Omnia."
-  dialogue_partnership_solutions: "Parceria de diálogo para o último responsável de organização."
-  management_audit_solutions: "Auditoria de Gestão"
-  solutions_solutions: "Soluções"
-  applied_solutions: "Aplicadas"
-  conflict_solutions: "Solução de conflitos"
-  administrative_conseul_solutions: "Estruturação e formação de conselho de administração."
-  commercial_solutions: "Solução em representação comercial"
-  crises_management_solutions: "Gestão de crises"
-  new_partnership_solutions: "Intermediação e conexão com novos fornecedores e parceiros."
-
-  # Training
-  the_training_training: "O Treinamento"
-  high_performance_training: "Alto Desempenho A Priori"
-  better_performance_training: "Buscando melhor desempenho e consistência profissional, estruturamos um treinamento baseado no mais atual estudo das leis Universais.Sua equipe será levada a <strong>reconstruir seus conceitos e ideais internos </strong>em uma jornada única de autoconhecimento. Ao final do treinamento, <strong>a equipe é conduzida</strong> a <strong>criar projetos práticos</strong>para <strong>melhorar</strong>, <strong>inovar</strong> e <strong>aumentar a lucratividade do negócio.</strong>"
-
-  # Values of Service
-  values_method_vos: "Os valores de nossa metodologia Vincit Omnia consistem em:"
-  root_influences_vos: "Priorizar e manter as raízes e influênciaque foram passados pelas gerações;"
-  our_values_vos: "Nossos Valores"
-  purpose_work_vos: "Atrelar propósito pessoal ao trabalho;"
-  ethic_energy_vos: "Ética com ação energética."
-
   # Who we are
   text_presentation_wwa: "Somos especialistas em formar equipes autônomas de alto desempenho." 
   consultancy_wwa: 
     <p class="text-content text-center">
       Prestamos consultoria e treinamentos especializados para <strong>empresas que buscam alta performance operacional</strong> e <strong>diferenciação estratégica</strong>
     </p>
-
-  # Contact
-  contact: "Contato"
-  wpp: "WhatsApp"
-  lk: "Linkedin"
-  email: "E-mail"
-  instagram: "Instagram"
-  wppcontact:
-    link_text: "Olá, Estou interessado nos serviços prestados pela A Priori. Eu gostaria de saber mais!"

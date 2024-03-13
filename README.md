@@ -1,19 +1,19 @@
 # Apriori LP
 
-Esse projeto é um site para empresa Apriori.
+Esse projeto tem como objetivo criar sites genéricos primeiramente para barbearia e depois expandirmos. Tendo a base o resto é ajustes manuais para atender o cliente
 
 # Rodando localhost
 
 Para rodar localmente, execute os seguintes comando:
 
 ```console
-docker build . -t apriori-lp
+docker build . -t barbaeria-site
 ```
 
 Agora o comando para subir o container:
 
 ```console
-docker run --rm -p 3000:3000 apriori-lp
+docker run --rm -p 3001:3000 barbaeria-site
 ```
 
 # Comando Extras
@@ -21,7 +21,7 @@ docker run --rm -p 3000:3000 apriori-lp
 Entrar no bash do container:
 
 ```console
-docker run --rm -ti apriori-lp bash
+docker run --rm -ti barbaeria-site bash
 ```
 
 Para quem usar WSL 2 no windows, precisa descobrir o IP do WSL:
