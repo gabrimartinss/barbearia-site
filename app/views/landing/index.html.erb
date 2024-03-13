@@ -4,14 +4,6 @@
     <div class="nav-wrapper container flex flex-center">
       <ul id="nav-mobile" class="left hide-on-med-and-down">
         <li class="flow-text uppercase" data-menuanchor="home"><a href="#who_are_we"><%= t('home') %></a></li>
-        <li class="flow-text uppercase" data-menuanchor="method"><a href="#method"><%= t('method') %></a></li>
-        <li class="flow-text uppercase" data-menuanchor="training"><a href="#training"><%= t('training') %></a></li>
-        <li class="flow-text uppercase" data-menuanchor="solutions"><a href="#solutions"><%= t('solutions') %></a></li>
-        <li class="flow-text uppercase" data-menuanchor="in_practice"><a href="#in_practice"><%= t('in_practice') %></a></li>
-        <li class="flow-text uppercase" data-menuanchor="acting"><a href="#acting"><%= t('acting') %></a></li>
-        <li class="flow-text uppercase" data-menuanchor="feedbacks"><a href="#feedbacks"><%= t('feedbacks') %></a></li>
-        <li class="flow-text uppercase" data-menuanchor="values_of_service"><a href="#values_of_service"><%= t('values_of_service') %></a></li>
-        <li class="flow-text uppercase" data-menuanchor="contact"><a href="#contact"><%= t('contact') %></a></li>
       </ul>
     </div>
   </nav>
@@ -36,19 +28,11 @@
 
 <div id="fullpage">
   <div id="who-are-we-bg" class="section" data-anchor="home"><%= render 'who_are_we' %></div>
-  <div id="method-bg" class="section" data-anchor="method"><%= render 'method' %></div>
-  <div id="training-bg" class="section" data-anchor="training"><%= render 'training' %></div>
-  <div id="solutions-bg" class="section" data-anchor="solutions"><%= render 'solutions' %></div>
-  <div id="in-practice-bg" class="section" data-anchor="in_practice"><%= render 'in_practice' %></div>
-  <div id="acting-bg" class="section" data-anchor="acting"><%= render 'acting' %></div>
-  <div id="feedbacks-bg" class="section" data-anchor="feedbacks"><%= render 'feedbacks' %></div>
-  <div id="values-of-service-bg" class="section" data-anchor="values_of_service"><%= render 'values_of_service' %></div>
-  <div id="contact-bg" class="section" data-anchor="contact"><%= render 'contact' %></div>
 </div>
 
 <script type="text/javascript">
   $('#fullpage').fullpage({
-    anchors: ['who_are_we', 'method', 'training', 'solutions', 'in_practice', 'acting', 'feedbacks', 'values_of_service', 'contact'],
+    anchors: ['who_are_we'],
     menu: '#nav-mobile',
     paddingTop: "60px",
     fitToSection: false,
